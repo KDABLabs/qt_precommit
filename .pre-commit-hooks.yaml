@@ -1,0 +1,8 @@
+- id: qmllint
+  name: qmllint
+  description: QML syntax verifier and analyzer
+  entry: qt_precommit --tool qmllint --
+  args:
+  - --max-warnings=0
+  language: python
+  types_or: [javascript, qml]
