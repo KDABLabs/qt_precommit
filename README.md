@@ -4,8 +4,9 @@
 
 Currently supported hooks:
 
-- **qmlformat**: Formats QML files according to the QML Coding Conventions;
-- **qmllint**: QML syntax verifier and analyzer;
+- [qmlformat](https://doc.qt.io/qt-6/qtqml-tooling-qmlformat.html): Formats QML files according to
+  the QML Coding Conventions;
+- [qmllint](https://doc.qt.io/qt-6/qtqml-tooling-qmllint.html): QML syntax verifier and analyzer;
 
 ## Installing hooks
 
