@@ -21,7 +21,7 @@ Add the following to your `.pre-commit-config.yaml`:
 
 ## Configuration
 
-qt_precommit will check for a `.qt_precommit` file in the current working directory, for example:
+qt_precommit will check for a `.qt-precommit` file in the current working directory, for example:
 
 ```ini
 [Qt]
@@ -31,7 +31,7 @@ path = /path/to/Qt/6.8.2/macos/bin
 If the file does not exist, or the Qt `path` is not configured, `qt_precommit` will use the `PATH`
 environment variable when searching for the specified tool.
 
-If used, the `.qt_precommit` file should be added to the `.gitignore` file, as this is a
+If used, the `.qt-precommit` file should be added to the `.gitignore` file, as this is a
 machine-specific configuration.
 
 ## Licensing
