@@ -4,6 +4,7 @@
 
 Currently supported hooks:
 
+- **qmlformat**: Formats QML files according to the QML Coding Conventions;
 - **qmllint**: QML syntax verifier and analyzer;
 
 ## Installing hooks
@@ -14,6 +15,7 @@ Add the following to your `.pre-commit-config.yaml`:
   - repo: https://github.com/KDABLabs/qt_precommit
     rev: v0.0.1
     hooks:
+      - id: qmlformat
       - id: qmllint
 ```
 

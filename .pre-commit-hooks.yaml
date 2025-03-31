@@ -6,3 +6,12 @@
   - --max-warnings=0
   language: python
   types_or: [javascript, qml]
+
+- id: qmlformat
+  name: qmlformat
+  description: Formats QML files according to the QML Coding Conventions
+  entry: qt_precommit --tool qmlformat --
+  args:
+  - --inplace
+  language: python
+  types_or: [qml]
